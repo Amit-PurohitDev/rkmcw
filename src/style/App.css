@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+.shadow:hover{
+  filter: drop-shadow(rgb(44, 44, 44) -6px -1px 15px) !important;
+  transition: .5s !important;
+  scale: 1.1;
+  position: relative;
+  left: 8% !important;
+  rotate: 10deg;
+}
