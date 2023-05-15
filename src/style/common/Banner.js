@@ -15,7 +15,23 @@ export const BannerWrap = styled.div`
   }
 
   .swiper-pagination{
-    display: none;
+    /* display: none; */
+  }
+
+  .swiper-pagination-bullet{
+    background-color: #fff;
+    opacity: 1;
+    width: 30px;
+    height: 10px;
+    border-radius:3px ;
+    transition:.4s;
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color: #ff2c53;
+    width: 50px;
+    height: 10px;
+    transition:.4s;
   }
   
   .swiper-slide {

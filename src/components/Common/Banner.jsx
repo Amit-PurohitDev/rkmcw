@@ -1,7 +1,7 @@
 import React from "react";
 import images from "../../constants/images";
 import { BannerWrap, ParallaxBG } from "../../style/common/Banner";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, Autoplay } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -43,14 +43,12 @@ const Banner = () => {
         parallax={true}
         
         pagination={{
-          clickable: false,
+          clickable: true,
+          autoplay:true
         }}
         navigation={true}
         modules={[Parallax, Pagination, Navigation]}
         className="mySwiper"
-        autoplay={{
-          delay: 100,
-        }}
       >
         <ParallaxBG
           slot="container-start"
@@ -76,7 +74,8 @@ const Banner = () => {
         </SwiperSlide>
         {data.map((item, index) => {
           return (
-            <SwiperSlide key={index}>
+            <SwiperSlide 
+            key={index}>
               <div>
                 <SubTitle data-swiper-parallax="-700">{item.title}{index+1}</SubTitle>
                 <Title data-swiper-parallax="-1200">{item.subTitle}</Title>
