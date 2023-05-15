@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ProCardWrap = styled.div`
   display: inline-block;
   width: 20%;
+    @media (max-width: 768px) {
+    width: 29%;
+  }
   position: relative;
   cursor: pointer;
   &:hover .proCart {
@@ -14,6 +17,9 @@ export const ProCardWrap = styled.div`
 export const ProCapture = styled.div`
   width: 100%;
   height: 100%;
+  @media (max-width: 768px) {
+    height: auto;
+  }
   background-color: #f5f7fb;
   box-shadow: rgb(208 218 239) 0px 0px 10px;
   border-radius: 10px;
@@ -81,12 +87,18 @@ export const ProTitle = styled.div`
   font-weight: 500;
   margin-bottom: 10px;
   color: #777777;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 export const ProDescription = styled.div`
   color: #292930;
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 10px;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
   span {
     color: #d6d6d6;
     text-decoration: line-through;

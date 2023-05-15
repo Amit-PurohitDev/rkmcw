@@ -9,7 +9,7 @@ const productData = [
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
-        stars:5
+        stars:3
     },
     {
         discount:"20% OFF",
@@ -17,7 +17,14 @@ const productData = [
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
-        stars:5
+        stars:2
+    },
+    {
+        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        title:"Level 20 RGB Cherry",
+        discounted:"$2.99",
+        price:"$49.99",
+        stars:1
     },
     {
         image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
@@ -31,22 +38,7 @@ const productData = [
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
-        stars:5
-    },
-    {
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
-        title:"Level 20 RGB Cherry",
-        discounted:"$2.99",
-        price:"$49.99",
-        stars:5
-    },
-    {
-        discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
-        title:"Level 20 RGB Cherry",
-        discounted:"$2.99",
-        price:"$49.99",
-        stars:5
+        stars:4
     },
     {
         discount:"20% OFF",
@@ -54,14 +46,22 @@ const productData = [
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
-        stars:5
+        stars:2
+    },
+    {
+        discount:"20% OFF",
+        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        title:"Level 20 RGB Cherry",
+        discounted:"$2.99",
+        price:"$49.99",
+        stars:4
     },
     {
         image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
-        stars:5
+        stars:3
     },
 ]  
 

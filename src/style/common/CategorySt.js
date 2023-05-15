@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const CategoryWrap = styled.div`
   padding: 3em 2em;
+  @media (max-width: 768px) {
+    padding: 1em;
+  }
 `;
 
 export const ListContainer = styled.div`
@@ -22,6 +25,9 @@ export const SubTitle = styled.p`
 
 export const Title = styled.h1`
   margin: 1em 0;
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
 `;
 
 export const ListItem = styled.div`

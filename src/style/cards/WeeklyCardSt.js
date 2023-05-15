@@ -4,6 +4,9 @@ export const WeeklyCardWrap = styled.div`
   background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-5.jpg");
   width: 100%;
   padding: 5em 2.5em;
+  @media (max-width: 768px) {
+    padding: 1em;
+  }
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -14,9 +17,15 @@ export const WeeklyCta = styled.div`
   gap: 20px;
   align-items: center;
   position: relative;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   input {
     padding-left: 66px;
     width: 390px;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
     font-size: 14px;
     font-weight: 400;
     height: auto;
@@ -50,6 +59,10 @@ export const IconWrapper = styled.div`
   position: absolute;
   left: 1%;
   top: 39%;
+  @media (max-width: 768px) {
+    left: 4%;
+    top: 16.5%;
+  }
 `;
 
 export const Subscribe = styled.div`

@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const ExploreWrapper = styled.div`
   padding: 3em 2em;
+  @media (max-width: 768px) {
+    padding: 1em;
+  }
 `;
 
 export const ExploreContainer = styled.div`
@@ -10,28 +13,33 @@ export const ExploreContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 2em;
+  @media (max-width: 768px) {
+    gap: 1em;
+    justify-content: start;
+  }
 `;
 
 export const Viewall = styled.div`
-  background-color: #c1c1c1;
+  background: linear-gradient(
+    127deg,
+    #efe6ff 0%,
+    #673ab7 35%,
+    rgba(46, 46, 2, 1) 100%
+  );
   display: block;
   margin: 2em auto;
   width: 200px;
   text-align: center;
   padding: 2em;
   cursor: pointer;
+  color: #ede7f6;
+  font-weight: 600;
   border-radius: 10px;
-  background: linear-gradient(127deg, #efe6ff 0%, #673AB7 35%, rgba(46,46,2,1) 100%);
-    display: block;
-    margin: 2em auto;
-    width: 200px;
-    text-align: center;
-    padding: 2em;
-    cursor: pointer;
-    color: #EDE7F6;
-    font-weight: 600;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #673AB7;
+  @media (max-width: 768px) {
+    margin: 1em auto;
+    width: 100%;
+    padding: 1em;
+  }
 `;
 
 export const NewContainer = styled.div`
@@ -68,7 +76,7 @@ export const FeedBackContainer = styled.div`
   align-items: center;
   overflow: hidden;
   overflow-x: scroll;
-  @media (max-width:768px) {
-    gap: .5em;
+  @media (max-width: 768px) {
+    gap: 0.5em;
   }
 `;

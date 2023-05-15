@@ -49,10 +49,18 @@ export const BannerWrap = styled.div`
   padding: 40px 60px;
   display: flex;
   align-items: center;
+  @media (max-width: 768px) {
+    padding: 30px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
   &>div{
     width: 50%;
     bottom: 15%;
     position: absolute;
+    @media (max-width: 768px) {
+      width: 90%;
+  }
   }
 }
 `;
