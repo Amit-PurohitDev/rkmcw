@@ -33,6 +33,12 @@ export const BannerWrap = styled.div`
     height: 15px;
     transition:.4s;
     border-radius:50%;
+    &:nth-child(1){
+      clip-path: polygon(100% 0, 62% 49%, 100% 100%, 0 50%);
+    }
+    &:nth-child(3){
+      clip-path: polygon(0 0, 100% 50%, 0 100%, 45% 48%);
+    }
   }
   
   .swiper-slide {
