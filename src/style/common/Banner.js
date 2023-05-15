@@ -29,9 +29,10 @@ export const BannerWrap = styled.div`
 
   .swiper-pagination-bullet-active{
     background-color: #ff2c53;
-    width: 50px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     transition:.4s;
+    border-radius:50%;
   }
   
   .swiper-slide {
