@@ -1,7 +1,7 @@
 import React from "react";
 import images from "../../constants/images";
 import { BannerWrap, ParallaxBG } from "../../style/common/Banner";
-import { Swiper, SwiperSlide, Autoplay } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";

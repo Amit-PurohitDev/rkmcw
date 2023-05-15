@@ -2,8 +2,9 @@ const macbook = require('../assets/images/macbook.jpg')
 const weekly = require('../assets/images/weekly.webp')
 
 
-
-export default {
+const images = {
     macbook,
     weekly
 }
+
+export default images;
