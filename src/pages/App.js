@@ -5,7 +5,7 @@ import Shop from "../pages/Shop";
 import Policies from "../pages/Policies";
 import Contact from "../pages/Contact";
 
-import { BrowserRouter, Route, Routes, useRoutes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
