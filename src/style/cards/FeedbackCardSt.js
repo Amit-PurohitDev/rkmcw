@@ -38,9 +38,25 @@ export const FeedbackContent = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
+
+export const ImageWrapper = styled.div`
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100px;
+    height: 70px;
+    border: 2px solid #825bc5;
+    box-shadow: 0px 0px 10px #D1C4E9;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+`;
+
 export const FeedBackUser = styled.div`
   width: 100%;
   padding-left: 20px;
+  color: #fff;
   p {
     font-size: 14px;
     margin: 5px 0;

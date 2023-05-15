@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96d97a31.css",
+    "main.js": "/static/js/main.070e0742.js",
+    "static/media/macbook.jpg": "/static/media/macbook.98d349942eef59541bd8.jpg",
+    "static/media/macm1.png": "/static/media/macm1.e4bad31dc7deee94985a.png",
+    "static/media/airpods.png": "/static/media/airpods.021e63a2e54013d7d7f4.png",
+    "static/media/mac16.png": "/static/media/mac16.0ec40bfefe919edf8040.png",
+    "static/media/iphone.png": "/static/media/iphone.645c57f3f3dd1d4cba40.png",
+    "static/media/group.png": "/static/media/group.229ed7f5372db79caaae.png",
+    "static/media/ipad.png": "/static/media/ipad.768c649b457e679373f7.png",
+    "static/media/macmini.png": "/static/media/macmini.26e1a2c51203bc26cc52.png",
+    "static/media/imac.png": "/static/media/imac.16e9c56d3057dd8ce0ce.png",
+    "static/media/macpro.png": "/static/media/macpro.439c06ac18c8fcbba8c2.png",
+    "static/media/macair.png": "/static/media/macair.c2d7efc34883ecc76112.png",
+    "static/media/forgotp.jpg": "/static/media/forgotp.166426f935630c25b5df.jpg",
+    "static/media/weekly.webp": "/static/media/weekly.e26b1404a3e7201375b2.webp",
+    "index.html": "/index.html",
+    "main.96d97a31.css.map": "/static/css/main.96d97a31.css.map",
+    "main.070e0742.js.map": "/static/js/main.070e0742.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96d97a31.css",
+    "static/js/main.070e0742.js"
+  ]
+}

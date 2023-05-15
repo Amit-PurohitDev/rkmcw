@@ -21,6 +21,17 @@ export const Viewall = styled.div`
   padding: 2em;
   cursor: pointer;
   border-radius: 10px;
+  background: linear-gradient(127deg, #efe6ff 0%, #673AB7 35%, rgba(46,46,2,1) 100%);
+    display: block;
+    margin: 2em auto;
+    width: 200px;
+    text-align: center;
+    padding: 2em;
+    cursor: pointer;
+    color: #EDE7F6;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #673AB7;
 `;
 
 export const NewContainer = styled.div`

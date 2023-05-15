@@ -4,6 +4,7 @@ import {
   FeedbackCardWrap,
   FeedbackContent,
   FeedbackText,
+  ImageWrapper
 } from "../../style/cards/FeedbackCardSt";
 
 const FeedbackCard = () => {
@@ -17,12 +18,12 @@ const FeedbackCard = () => {
         </p>
       </FeedbackText>
       <FeedbackContent>
-        <div>
+        <ImageWrapper>
           <img
             src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-2.png"
             alt="profile"
           />
-        </div>
+        </ImageWrapper>
         <FeedBackUser>
           <p>Head Of Idea</p>
           <p>James C. Anderson</p>

@@ -33,7 +33,11 @@ const productData = [
 
 const UserFeedback = () => {
   return (
-    <ExploreWrapper style={{background:"rgb(111 121 173)"}}>
+    <ExploreWrapper style={{
+      background: "linear-gradient(127deg, #efe6ff 0%, #673AB7 35%, rgba(46,46,2,1) 100%)",
+      fontWeight: "600",
+      boxShadow: "0px 0px 10px #673AB7"
+      }}>
       <SubTitle>This Week’s</SubTitle>
       <Title>Users Feedback</Title>
       <FeedBackContainer>

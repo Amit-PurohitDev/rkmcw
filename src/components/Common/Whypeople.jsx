@@ -37,7 +37,7 @@ const Whypeople = () => {
   return (
     <CategoryWrap
       style={{
-        backgroundImage: "url(" + images.weekly + ")",
+        backgroundImage: "url(" + images.macbook + ")",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundSize: "cover",
