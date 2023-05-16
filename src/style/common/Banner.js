@@ -10,6 +10,13 @@ export const BannerWrap = styled.div`
     height: 100%;
     background: #000;
   }
+
+.swiper-pagination-horizontal{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
   .swiper-slide:nth-child(1){
     display: none;
   }

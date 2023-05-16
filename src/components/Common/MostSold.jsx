@@ -43,31 +43,7 @@ const productData = [
         discounted:"$2.99",
         price:"$49.99",
         stars:5
-    },
-    {
-        discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
-        title:"Level 20 RGB Cherry",
-        discounted:"$2.99",
-        price:"$49.99",
-        stars:5
-    },
-    {
-        discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
-        title:"Level 20 RGB Cherry",
-        discounted:"$2.99",
-        price:"$49.99",
-        stars:5
-    },
-    {
-        discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
-        title:"Level 20 RGB Cherry",
-        discounted:"$2.99",
-        price:"$49.99",
-        stars:5
-    },
+    }
 ]  
 
 const MostSold = () => {

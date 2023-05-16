@@ -10,6 +10,9 @@ export const CategoryWrap = styled.div`
 export const ListContainer = styled.div`
   display: flex;
   justify-content: space-around;
+  @media (max-width: 768px) {
+    /* flex-direction: column; */
+  }
   width: ${window.innerWidth};
   overflow: hidden;
   overflow-x: scroll;
@@ -53,4 +56,33 @@ export const ImageWrapper = styled.div`
     height: 100%;
     object-fit: contain;
   }
+`;
+
+export const CategoryImageWrapper = styled.div`
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  p {
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  filter: drop-shadow(7px 8px 10px #2c2c2c);
+  transition: 0.5s;
+  position: relative;
+  left: 0%;
+`;
+
+export const CategoryText = styled.div`
+  position: relative;
+  top: 20%;
+  font-size: 14px;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  color: rgb(63, 81, 181);
+  padding: 5px;
+  border-radius: 5px;
 `;

@@ -78,5 +78,6 @@ export const FeedBackContainer = styled.div`
   overflow-x: scroll;
   @media (max-width: 768px) {
     gap: 0.5em;
+    padding-left: 15rem;
   }
 `;

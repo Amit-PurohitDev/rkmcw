@@ -2,11 +2,12 @@ import React from "react";
 import ico from "../../constants/icons";
 import {
   CategoryWrap,
-  ImageWrapper,
   ListContainer,
   ListItem,
   Title,
   SubTitle,
+  CategoryImageWrapper,
+  CategoryText
 } from "../../style/common/CategorySt";
 
 const category = [
@@ -86,32 +87,21 @@ const Category = () => {
               }}
               key={index}
             >
-              <ImageWrapper
+              <CategoryImageWrapper
                 className="shadow"
                 style={{
-                  filter: "drop-shadow(7px 8px 10px #2c2c2c)",
-                  transition: ".5s",
-                  position: "relative",
-                  left: "0%",
+                  
                 }}
               >
                 <img src={ico[item.image]} alt="" srcset="" />
-              </ImageWrapper>
-              <p
+              </CategoryImageWrapper>
+              <CategoryText
                 style={{
-                  position: "relative",
-                  top: "20%",
-                  fontSize: "14px",
-                  fontWeight: 700,
-                  background: "rgb(255, 255, 255)",
-                  color: "rgb(63, 81, 181)",
-                  padding: "5px",
-                  borderRadius: "5px",
                   boxShadow: " rgb(63, 81, 181) 0px 3px 10px",
                 }}
               >
                 {item.title}
-              </p>
+              </CategoryText>
             </ListItem>
           );
         })}
