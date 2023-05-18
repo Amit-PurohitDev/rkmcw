@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96d97a31.css",
-    "main.js": "/static/js/main.b8b64d57.js",
+    "main.js": "/static/js/main.7434f107.js",
     "static/media/macbook.jpg": "/static/media/macbook.98d349942eef59541bd8.jpg",
     "static/media/macm1.png": "/static/media/macm1.e4bad31dc7deee94985a.png",
     "static/media/airpods.png": "/static/media/airpods.021e63a2e54013d7d7f4.png",
@@ -17,10 +17,10 @@
     "static/media/weekly.webp": "/static/media/weekly.e26b1404a3e7201375b2.webp",
     "index.html": "/index.html",
     "main.96d97a31.css.map": "/static/css/main.96d97a31.css.map",
-    "main.b8b64d57.js.map": "/static/js/main.b8b64d57.js.map"
+    "main.7434f107.js.map": "/static/js/main.7434f107.js.map"
   },
   "entrypoints": [
     "static/css/main.96d97a31.css",
-    "static/js/main.b8b64d57.js"
+    "static/js/main.7434f107.js"
   ]
 }

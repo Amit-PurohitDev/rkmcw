@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Parallax, Pagination, Navigation } from "swiper";
+import { Parallax, Pagination, Navigation, Autoplay } from "swiper";
 import { SubTitle, Title } from "../../style/common/CategorySt";
 
 const data = [
@@ -19,6 +19,12 @@ const data = [
   },
   {
     title: "rakesh",
+    subTitle: "Browse by Category",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.",
+  },
+  {
+    title: "rohit",
     subTitle: "Browse by Category",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.",
@@ -44,10 +50,10 @@ const Banner = () => {
         
         pagination={{
           clickable: true,
-          autoplay:true
         }}
+        loop={true}
         navigation={true}
-        modules={[Parallax, Pagination, Navigation]}
+        modules={[Parallax, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <ParallaxBG
@@ -55,9 +61,10 @@ const Banner = () => {
           className="parallax-bg"
           img={images.macbook}
           data-swiper-parallax="-23%"
-          Autoplay={true}
         ></ParallaxBG>
-        <SwiperSlide>
+        <SwiperSlide
+        data-swiper-autoplay="5000"
+        >
           <SubTitle data-swiper-parallax="-700">Categories</SubTitle>
           <Title data-swiper-parallax="-1200">Browse by Category</Title>
           <div className="text" data-swiper-parallax="-100">
