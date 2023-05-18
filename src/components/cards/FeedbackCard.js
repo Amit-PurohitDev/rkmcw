@@ -7,26 +7,28 @@ import {
   ImageWrapper
 } from "../../style/cards/FeedbackCardSt";
 
-const FeedbackCard = () => {
+const FeedbackCard = (props) => {
   return (
     <FeedbackCardWrap>
-      <FeedbackText>
+      <FeedbackText
+        style={{
+          color:"#000"
+        }}
+      >
         <p>
-          “ It’s amazing how much easier it has been to meet new people and
-          create instantly non connections. I have the exact same personal the
-          only thing that has changed is my mind set and a few behaviors. “
+          {props.item.des}
         </p>
       </FeedbackText>
       <FeedbackContent>
         <ImageWrapper>
           <img
-            src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-2.png"
+            src={props.item.image}
             alt="profile"
           />
         </ImageWrapper>
         <FeedBackUser>
-          <p>Head Of Idea</p>
-          <p>James C. Anderson</p>
+          <p>{props.item.Name}</p>
+          <p>{props.item.title}</p>
         </FeedBackUser>
       </FeedbackContent>
     </FeedbackCardWrap>

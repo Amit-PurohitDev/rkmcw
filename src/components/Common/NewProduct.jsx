@@ -3,7 +3,7 @@ import NewproductCard from "../cards/NewprodCard";
 import { ExploreWrapper, NewContainer } from "../../style/common/ExploreSt";
 import { SubTitle, Title } from "../../style/common/CategorySt";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import product from '../../constants/products'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -12,8 +12,7 @@ import "swiper/css/pagination";
 const productData = [
   {
     discount: "20% OFF",
-    image:
-      "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+    image:product.keyboard,
     title: "Level 20 RGB Cherry",
     discounted: "$2.99",
     price: "$49.99",
@@ -21,8 +20,7 @@ const productData = [
   },
   {
     discount: "20% OFF",
-    image:
-      "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+    image:product.cam,
     title: "Level 20 RGB Cherry",
     discounted: "$2.99",
     price: "$49.99",
@@ -30,8 +28,7 @@ const productData = [
   },
   {
     discount: "20% OFF",
-    image:
-      "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+    image:product.mouse,
     title: "Level 20 RGB Cherry",
     discounted: "$2.99",
     price: "$49.99",
@@ -39,8 +36,7 @@ const productData = [
   },
   {
     discount: "20% OFF",
-    image:
-      "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+    image:product.portable,
     title: "Level 20 RGB Cherry",
     discounted: "$2.99",
     price: "$49.99",

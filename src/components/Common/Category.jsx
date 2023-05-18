@@ -99,6 +99,7 @@ const Category = () => {
                 style={{
                   boxShadow: " rgb(63, 81, 181) 0px 3px 10px",
                 }}
+                className="categoryText"
               >
                 {item.title}
               </CategoryText>

@@ -89,4 +89,8 @@ export const CategoryText = styled.div`
   color: rgb(63, 81, 181);
   padding: 5px;
   border-radius: 5px;
+  &.categoryText{
+    box-shadow:none !important;
+    white-space: nowrap;
+  }
 `;

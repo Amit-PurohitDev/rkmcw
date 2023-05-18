@@ -2,11 +2,12 @@ import React from 'react'
 import { ExploreContainer, ExploreWrapper } from '../../style/common/ExploreSt'
 import { SubTitle, Title } from '../../style/common/CategorySt'
 import MostProduct from '../cards/MostProduct'
+import product from '../../constants/products'
 
 const productData = [
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.cam,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -14,7 +15,7 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.keyboard,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -22,7 +23,7 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.laptop,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -30,7 +31,7 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.portable,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -38,7 +39,7 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.headphone,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",

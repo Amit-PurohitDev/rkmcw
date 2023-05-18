@@ -23,7 +23,7 @@ const NewProductCard = (props) => {
       <NewProCapture>
         <NewProImage
           className="proCart"
-          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png"
+          src={props.item.image}
           alt="pro"
         />
       </NewProCapture>

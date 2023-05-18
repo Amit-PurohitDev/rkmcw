@@ -3,11 +3,11 @@ import { NewProSubText } from "../../style/cards/NewProductST";
 import { FaStar, FaCartPlus, FaHeart } from "react-icons/fa";
 import { MostProductContainer, MostProductWrap, MostProductImage, MostProductContent, MostProductReview, MostProductTitle, MostProductCost, MostProductLike,  MostProductCart, MostProductCta} from "../../style/cards/MostProduct";
 
-const MostProduct = () => {
+const MostProduct = (props) => {
   return (
     <MostProductWrap>
       <MostProductContainer>
-        <MostProductImage><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-11.png" alt="as" /></MostProductImage>
+        <MostProductImage><img src={props.item.image} alt="as" /></MostProductImage>
         <MostProductContent>
           <MostProductReview>
               <NewProSubText>
