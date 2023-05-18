@@ -11,11 +11,11 @@ export const BannerWrap = styled.div`
     background: #000;
   }
 
-/* .swiper-pagination-horizontal{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-} */
+  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .swiper-slide:nth-child(1){
     display: none;

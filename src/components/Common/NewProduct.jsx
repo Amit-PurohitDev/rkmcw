@@ -79,8 +79,8 @@ const NewProduct = () => {
         >
           {productData.map((item, index) => {
             return (
-              <SwiperSlide>
-                <NewproductCard key={index} item={item} />
+              <SwiperSlide key={item+index}>
+                <NewproductCard key={item+index} item={item} />
               </SwiperSlide>
             );
           })}

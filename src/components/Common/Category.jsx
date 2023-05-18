@@ -93,7 +93,7 @@ const Category = () => {
                   
                 }}
               >
-                <img src={ico[item.image]} alt="" srcset="" />
+                <img src={ico[item.image]} alt="img"  />
               </CategoryImageWrapper>
               <CategoryText
                 style={{

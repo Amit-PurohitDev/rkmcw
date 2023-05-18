@@ -10,13 +10,13 @@ export const CategoryWrap = styled.div`
 export const ListContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  @media (max-width: 768px) {
-    /* flex-direction: column; */
-  }
   width: ${window.innerWidth};
   overflow: hidden;
   overflow-x: scroll;
   gap: 2em;
+  @media (max-width: 768px) {
+    gap: 0em;
+  }
   &::-webkit-scrollbar {
     display: none;
   }
@@ -61,6 +61,10 @@ export const ImageWrapper = styled.div`
 export const CategoryImageWrapper = styled.div`
   width: 100px;
   height: 100px;
+  @media (max-width: 768px) {
+    width: 50px;
+    height: 50px;
+  }
   overflow: hidden;
   p {
     text-align: center;

@@ -46,7 +46,7 @@ const ProductCard = (props) => {
           {Array(props.item.stars)
             .fill(1)
             .map((el, i) => (
-              <FaStar size={14} color="#ff2c53" />
+              <FaStar key={i+"unique"} size={14} color="#ff2c53" />
             ))}
         </ProSubText>
       </ProContent>

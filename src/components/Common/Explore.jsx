@@ -2,10 +2,12 @@ import React from 'react'
 import { SubTitle, Title } from '../../style/common/CategorySt'
 import { ExploreContainer, ExploreWrapper, Viewall } from '../../style/common/ExploreSt'
 import ProductCard from '../cards/ProductCard'
+import product from '../../constants/products'
+
 
 const productData = [
     {
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.headphone,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -13,28 +15,28 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.cam,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
         stars:2
     },
     {
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.keyboard,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
         stars:1
     },
     {
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.laptop,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
         stars:5
     },
     {
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.mouse,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -42,7 +44,7 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.portable,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
@@ -50,14 +52,14 @@ const productData = [
     },
     {
         discount:"20% OFF",
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.speaker,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",
         stars:4
     },
     {
-        image:"https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+        image:product.cam,
         title:"Level 20 RGB Cherry",
         discounted:"$2.99",
         price:"$49.99",

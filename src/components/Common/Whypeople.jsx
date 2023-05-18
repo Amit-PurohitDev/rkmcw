@@ -67,7 +67,7 @@ const Whypeople = () => {
             }}
             >
               <ImageWrapper>
-                <img src={ico[item.image]} alt="" srcset="" />
+                <img src={ico[item.image]} alt="" />
               </ImageWrapper>
               <p>{item.title}</p>
             </ListItem>
