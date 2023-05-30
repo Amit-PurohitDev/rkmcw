@@ -76,8 +76,7 @@ const category = [
 const Category = () => {
   return (
     <CategoryWrap style={{ backgroundColor: "#e8e8e" }}>
-      <SubTitle>Categories</SubTitle>
-      <Title>Browse by Category</Title>
+      <Title style={{margin:0}}>Browse by Category</Title>
       <ListContainer>
         {category.map((item, index) => {
           return (

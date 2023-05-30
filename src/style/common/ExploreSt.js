@@ -20,12 +20,7 @@ export const ExploreContainer = styled.div`
 `;
 
 export const Viewall = styled.div`
-  background: linear-gradient(
-    127deg,
-    #efe6ff 0%,
-    #673ab7 35%,
-    rgba(46, 46, 2, 1) 100%
-  );
+  background: #49494b;
   display: block;
   margin: 2em auto;
   width: 200px;

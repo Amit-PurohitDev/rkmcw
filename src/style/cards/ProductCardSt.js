@@ -21,7 +21,6 @@ export const ProCapture = styled.div`
     height: auto;
   }
   background-color: #f5f7fb;
-  box-shadow: rgb(208 218 239) 0px 0px 10px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;

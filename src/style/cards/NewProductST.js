@@ -15,7 +15,6 @@ export const NewProCapture = styled.div`
   width: 100%;
   height: 75%;
   background-color: #f5f7fb;
-  box-shadow: rgb(208 218 239) 0px 0px 10px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;

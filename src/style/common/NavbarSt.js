@@ -13,6 +13,7 @@ export const NavWrap = styled.div`
   .hamburger{
     display: none;
   }
+  padding: 0 20px;
   @media (max-width:768px){
     padding: 0 20px;
     z-index: 10000;
@@ -67,4 +68,8 @@ export const NavSection = styled.div`
 export const UserSection = styled.div`
     display: flex;
     gap: 20px;
+    position: relative;
+    p{
+      cursor: pointer;
+    }
 `;

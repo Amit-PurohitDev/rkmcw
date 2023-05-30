@@ -17,9 +17,10 @@ import {
   import { FaStar, FaHeart, FaEye } from "react-icons/fa";
 
 const NewProductCard = (props) => {
+  const data = props.item
   return (
     <NewProCardWrap>
-      <NewProDis>20% OFF</NewProDis>
+      <NewProDis>{data.discount}% OFF</NewProDis>
       <NewProCapture>
         <NewProImage
           className="proCart"
@@ -28,13 +29,13 @@ const NewProductCard = (props) => {
         />
       </NewProCapture>
       <NewProContent>
-        <NewProTitle>Level 20 RGB Cherry</NewProTitle>
+        <NewProTitle>{data.title}</NewProTitle>
         <NewProDescription>
-          $2.99
-          <span>$49.99</span>
+          ${data.discounted}
+          <span>${data.price}</span>
         </NewProDescription>
         <NewProSubText>
-          {Array(5)
+          {Array(data.stars)
             .fill(1)
             .map((el, i) => (
               <FaStar key={el+i} size={14} color="#ff2c53" />

@@ -50,7 +50,7 @@ const productData = [
 const MostSold = () => {
   return (
     <ExploreWrapper>
-      <SubTitle style={{textAlign:"center"}}>Our Products</SubTitle>
+      <SubTitle style={{textAlign:"center", display:"block"}}>Our Products</SubTitle>
       <Title  style={{textAlign:"center"}}>Most Sold in eTrade Store</Title>
       <ExploreContainer>
         {

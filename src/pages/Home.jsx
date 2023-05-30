@@ -11,6 +11,7 @@ import Promotion from '../components/Common/Promotion'
 import WeeklyUpdate from '../components/Common/WeeklyUpdate'
 
 const Home = () => {
+
   return (
     <div>
         <Navbar />

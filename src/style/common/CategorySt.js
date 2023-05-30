@@ -23,7 +23,15 @@ export const ListContainer = styled.div`
 `;
 
 export const SubTitle = styled.p`
-  margin: 1em 0;
+  /* margin: 1em 0px; */
+  font-size: 16px;
+  font-weight: 700;
+  /* color: #ffffff; */
+  /* background-color: #03a9f4; */
+  display: inline-block;
+  /* padding: 15px 40px 15px 10px; */
+  border-top-right-radius: 10px;
+  /* filter: drop-shadow(2px 4px 6px black); */
 `;
 
 export const Title = styled.h1`
@@ -89,8 +97,8 @@ export const CategoryText = styled.div`
   color: rgb(63, 81, 181);
   padding: 5px;
   border-radius: 5px;
-  &.categoryText{
-    box-shadow:none !important;
+  &.categoryText {
+    box-shadow: none !important;
     white-space: nowrap;
   }
 `;

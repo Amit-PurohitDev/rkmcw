@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 
 import {
   ProCardWrap,
@@ -15,21 +15,42 @@ import {
   ProLike,
 } from "../../style/cards/ProductCardSt";
 import { FaStar, FaHeart, FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import dataReturn from "../../firebase/Data";
+import { add } from "../../store/cartSlice";
+import { useDispatch } from "react-redux";
+
 
 const ProductCard = (props) => {
+  const dispatch = useDispatch();
+  const ref = useRef();
+  function addProduct() {
+    dataReturn("productdata")
+      .then((res) => {
+        return res;
+      })
+      .then( (response) => {
+        response.map((item, index) => {
+          if(ref.current.id === item.id.toString()){
+            dispatch(add(item))
+            
+          }
+        })
+      });
+  }
+
   return (
-    <ProCardWrap>
-      {props.item.discount && <ProDis>{props.item.discount}</ProDis>}
+    <ProCardWrap ref={ref} id={props.prooductId}>
+      {props.item.discount && <ProDis>{props.item.discount} % OFF</ProDis>}
       <ProCapture>
-        <ProImage
-          src={props.item.image}
-          alt="pro"
-        />
+        <ProImage src={props.item.image} alt="pro" />
         <ProCart className="proCart">
           <ProHide>
-            <FaEye size={14} color="#1f1f1f" />
+            <Link to="/cart">
+              <FaEye size={14} color="#1f1f1f" />
+            </Link>
           </ProHide>
-          <ProAddCart>ADD TO CART</ProAddCart>
+          <ProAddCart onClick={addProduct}>ADD TO CART</ProAddCart>
           <ProLike>
             <FaHeart size={14} color="#1f1f1f" />
           </ProLike>
@@ -38,17 +59,9 @@ const ProductCard = (props) => {
       <ProContent>
         <ProTitle>{props.item.title}</ProTitle>
         <ProDescription>
-        {props.item.discounted}
+          {props.item.discounted}
           <span>{props.item.price}</span>
         </ProDescription>
-        <ProSubText>
-          
-          {Array(props.item.stars)
-            .fill(1)
-            .map((el, i) => (
-              <FaStar key={i+"unique"} size={14} color="#ff2c53" />
-            ))}
-        </ProSubText>
       </ProContent>
     </ProCardWrap>
   );

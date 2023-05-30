@@ -17,9 +17,9 @@ export const BannerWrap = styled.div`
     align-items: center;
   }
 
-  .swiper-slide:nth-child(1){
+  /* .swiper-slide:nth-child(1){
     display: none;
-  }
+  } */
 
   .swiper-pagination{
     /* display: none; */
@@ -29,8 +29,8 @@ export const BannerWrap = styled.div`
     background-color: #fff;
     opacity: 1;
     width: 30px;
-    height: 10px;
-    border-radius:3px ;
+    height: 25px;
+    clip-path: polygon(0 65%, 9% 18%, 24% 52%, 46% 25%, 64% 46%, 76% 13%, 100% 59%, 77% 30%, 67% 60%, 46% 32%, 25% 65%, 10% 34%);
     transition:.4s;
   }
 
@@ -39,12 +39,14 @@ export const BannerWrap = styled.div`
     width: 15px;
     height: 15px;
     transition:.4s;
-    border-radius:50%;
-    &:nth-child(1){
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    &:first-child{
       clip-path: polygon(100% 0, 62% 49%, 100% 100%, 0 50%);
+      height: 25px;
     }
-    &:nth-child(3){
+    &:last-child{
       clip-path: polygon(0 0, 100% 50%, 0 100%, 45% 48%);
+      height: 25px;
     }
   }
   
