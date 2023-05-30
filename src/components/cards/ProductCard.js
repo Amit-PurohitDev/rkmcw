@@ -30,9 +30,9 @@ const ProductCard = (props) => {
       })
       .then( (response) => {
         response.map((item, index) => {
-          if(ref.current.id === item.id.toString()){
-            dispatch(add(item))
-          }
+          return(
+            ref.current.id === item.id.toString() ?  dispatch(add(item)) :  ""
+          )
         })
       });
   }
