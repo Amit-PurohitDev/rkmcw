@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 
 import {
   ProCardWrap,
@@ -6,7 +6,6 @@ import {
   ProContent,
   ProTitle,
   ProDescription,
-  ProSubText,
   ProImage,
   ProDis,
   ProCart,
@@ -14,7 +13,7 @@ import {
   ProAddCart,
   ProLike,
 } from "../../style/cards/ProductCardSt";
-import { FaStar, FaHeart, FaEye } from "react-icons/fa";
+import { FaHeart, FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import dataReturn from "../../firebase/Data";
 import { add } from "../../store/cartSlice";
@@ -33,7 +32,6 @@ const ProductCard = (props) => {
         response.map((item, index) => {
           if(ref.current.id === item.id.toString()){
             dispatch(add(item))
-            
           }
         })
       });

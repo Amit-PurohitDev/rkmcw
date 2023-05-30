@@ -5,7 +5,6 @@ import {
   ListContainer,
   ListItem,
   Title,
-  SubTitle,
   CategoryImageWrapper,
   CategoryText
 } from "../../style/common/CategorySt";
