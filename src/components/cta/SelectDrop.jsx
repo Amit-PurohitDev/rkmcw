@@ -1,8 +1,7 @@
-import React, {useRef, useState} from 'react'
+import React, {useState} from 'react'
 import { DropList, Label, ListItem, SelectContainer } from '../../style/Cta/SelectDropSt';
 
 const SelectDrop = (props) => {
-    const ref = useRef();
     const [dataSelect, setDataSelect ] =  useState(props.list[0]);
     const [showSelect, setshowSelect ] =  useState(false);
     function selectPop(e) {
