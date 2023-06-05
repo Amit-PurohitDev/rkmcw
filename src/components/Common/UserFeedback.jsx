@@ -28,7 +28,7 @@ const productData = [
 const UserFeedback = () => {
   return (
     <ExploreWrapper style={{
-      background: "#455056",
+      background: "rgb(20 47 62)",
       fontWeight: "600",
       color:"#fff"
       }}>

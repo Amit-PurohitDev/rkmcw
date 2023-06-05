@@ -28,14 +28,15 @@ const NewProduct = () => {
       <Title>New Arrivals</Title>
       <NewContainer>
         <Swiper
-          style={{
-            "--swiper-navigation-color": "#c5ec04",
-            "--swiper-pagination-color": "#92a666",
-          }}
+        style={{
+          "--swiper-navigation-color": "#ec044d",
+          "--swiper-pagination-color": "#92a666",
+        }}
           slidesPerView={3}
           spaceBetween={1}
           modules={[Autoplay, Navigation]}
           loop={true}
+          autoplay={true}
           className="mySwiper"
           speed={4000}
           pagination={{
